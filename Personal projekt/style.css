@@ -63,6 +63,7 @@ section{
 }
 
 #section-2{
+   text-align: center;
     background-color: #6e726e;
     min-height: 745px;
     color: white;
@@ -96,6 +97,66 @@ section{
     font-size: 20px;
     line-height: 30px;
 } 
+
+#section-3{
+    background-color:#ffda5f;
+    min-height: 820px;
+    color: #FF7A00;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    display: flex;
+}
+
+input[type="text"], input[type="email"]{
+    width: 40%;
+    height: 30px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 120px;
+    width: 87%;
+    padding-top: 20px;
+}
+
+input[type="submit"]{
+    background-color:  #FF7A00;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 15px 65px;
+    color: white;
+}
+
+
+
+
+
+
 
 
 
