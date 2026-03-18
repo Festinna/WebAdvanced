@@ -121,7 +121,7 @@ input[type="text"], input[type="email"]{
 
 input[type="text"], input[type="email"], textarea{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color:black;
     background-color: white;
     border: none;
     font-size: 18px;
