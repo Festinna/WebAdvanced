@@ -73,4 +73,59 @@ body {
   color: #555;
 }
 
+@media (max-width: 992px) {
+  .nutrition-section h1 {
+    font-size: 28px;
+  }
 
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 240px;
+  }
+
+  .recipes-section {
+    margin: 50px 20px;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nutrition-section {
+    padding: 40px 15px;
+  }
+
+  .nutrition-section h1 {
+    font-size: 24px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .recipes-section {
+    margin: 40px 15px;
+    padding: 20px;
+  }
+
+  .recipes-section h2 {
+    font-size: 20px;
+  }
+
+  .recipes-section p {
+    font-size: 14px;
+  }
+}
