@@ -50,7 +50,36 @@ nav ul li a {
     font-size: 40px;
 }
 
-.recipes-grid {
+.main-heading2 h2{
+    color: rgb(175, 92, 44);
+    text-align: center;
+    font-size: 27px;
+}
+
+.main-heading3 h3{
+    color: rgb(175, 92, 44);
+    text-align: center;
+    font-size: 27px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px; 
+}
+
+.btn {
+  background-color: #ff7a18;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+
+
+.recipes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
